@@ -1,0 +1,7 @@
+*/Library/
+*/UIElementsSchema/
+*/obj/Debug/
+*/Logs/
+*.csproj
+*.sln
+*.vscode

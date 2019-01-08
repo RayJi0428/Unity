@@ -1,0 +1,15 @@
+[VS Code]
+VS Code擴充功能安裝Debugger for Unity
+Unity/Edit/Preferences/External Tools指定External Script Editor到VS Cods
+VS Code偵錯啟動Unity Editor再選Unity的Play
+完成
+
+[彈力球]
+新增sphere
+sphere添加rigit body
+
+新增plane放置於sphere下
+新增physic material 設置bounciness彈跳係數(0~1)
+完成
+
+
