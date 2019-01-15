@@ -15,4 +15,9 @@ public class Ball : MonoBehaviour
     void Update()
     {
     }
+
+    void OnDestroy()
+    {
+        Debug.Log("des");
+    }
 }
