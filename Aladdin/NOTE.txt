@@ -13,3 +13,4 @@ sphere添加rigit body
 完成
 
 
+如要模擬手機螢幕的長寬比，必須先到上方的File→Build Settings，選擇iOS或Android，再按底下的Switch Platform。回到Game視窗，長寬比選項就變成各種手機型號的長寬比了。
