@@ -22,4 +22,23 @@ public class Reel : MonoBehaviour
             this.container.transform.localPosition = Vector3.zero;
         }
     }
+
+    private bool isSpin;
+    public void Spin()
+    {
+        if (isSpin)
+        {
+            return;
+        }
+        isSpin = true;
+
+        speed = 5.0f;
+    }
+
+    public void Stop()
+    {
+        isSpin = false;
+        speed = 0.0f;
+
+    }
 }

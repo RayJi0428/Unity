@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class BallDestroy : MonoBehaviour
 {
+    public int type = 0;
     // Start is called before the first frame update
+
     void Start()
     {
 
@@ -18,9 +20,18 @@ public class BallDestroy : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
+        //碰撞到彈珠，移除彈珠
         if (col.gameObject.tag == "ball")
         {
             Destroy(col.gameObject);
+        }
+
+        //才觸發spin
+        if (type == 1)
+        {
+            
+
+            SlotController.Instance.Spin();
         }
     }
 }

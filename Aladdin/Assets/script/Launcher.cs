@@ -18,6 +18,7 @@ public class Launcher : MonoBehaviour
     {
         count++;
 
+        //每20個frame生成一個彈珠
         if (count > 20)
         {
             count = 0;
