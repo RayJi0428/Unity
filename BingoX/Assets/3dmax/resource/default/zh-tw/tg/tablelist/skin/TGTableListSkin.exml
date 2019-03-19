@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TGTableListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:control="control.*" xmlns:cloudnet="cloudnet.*" xmlns:roulette="roulette.*" width="720" height="1280">
+	<e:Rect height="1280" width="2160" x="-720" fillColor="0x000000"/>
+	<e:Group id="tableGroup">
+		<e:Group id="page_0" width="720" height="1280" scaleX="1" scaleY="1" x="-720">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="22" paddingTop="268" gap="-30"/>
+			</e:layout>
+
+		</e:Group>
+		<e:Group id="page_1" width="720" height="1280" scaleX="1" scaleY="1" x="0">
+			<e:layout>
+			<e:VerticalLayout paddingLeft="22" paddingTop="268" gap="-30"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="page_2" width="720" height="1280" scaleX="1" scaleY="1" x="720">
+			<e:layout>
+			<e:VerticalLayout paddingLeft="22" paddingTop="268" gap="-30"/>
+			</e:layout>
+		</e:Group>
+
+
+
+
+	</e:Group>
+		<e:Button id="prevBtn" label="" x="3" y="711" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tg_tablelist_sheet_json.tg_arrow"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+	</e:Button>
+	<e:Button id="nextBtn" label="" x="717" y="711" scaleX="-0.9" scaleY="0.9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tg_tablelist_sheet_json.tg_arrow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>
